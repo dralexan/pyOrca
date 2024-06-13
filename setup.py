@@ -15,12 +15,14 @@ setup(
         'pymodbus', 'struct', 'time'
     ],
     description='A Python package for communicating with the Orca motor using Modbus.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Daniel Alexander',
-    author_email='support@irisdynamics.com',
-    url='https://github.com/yourusername/pyOrca',  
+    author_email='dralexander@irisdynamics.com',
+    url='https://github.com/dralexan/pyOrca',  
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
