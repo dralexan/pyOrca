@@ -8,7 +8,7 @@ Created on Tue Jun 11 17:29:28 2024
 from setuptools import setup, find_packages
 
 setup(
-    name='pyOrca',
+    name='pyOrcas',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -19,7 +19,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Daniel Alexander',
     author_email='dralexander@irisdynamics.com',
-    url='https://github.com/dralexan/pyOrca',  
+    url='https://github.com/dralexan/pyOrcas',  
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Apache Software License',
